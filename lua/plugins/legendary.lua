@@ -1,0 +1,16 @@
+-- Disable this plugin
+-- if true then
+--   return {}
+-- end
+
+return {
+  "mrjones2014/legendary.nvim",
+  -- comment version to use latest
+  version = "v2.13.12",
+  -- since legendary.nvim handles all your keymaps/commands,
+  -- its recommended to load legendary.nvim before other plugins
+  -- priority = 10000,
+  -- lazy = false,
+  -- sqlite is only needed if you want to use frecency sorting
+  -- dependencies = { 'kkharji/sqlite.lua' }
+}
