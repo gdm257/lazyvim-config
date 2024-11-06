@@ -7,7 +7,7 @@ return {
   -- since legendary.nvim handles all your keymaps/commands,
   -- its recommended to load legendary.nvim before other plugins
   -- priority = 10000,
-  lazy = false,
+  lazy = true,
   keys = {
     { "<leader>sK", "<cmd>Legendary keymaps<cr>", desc = "Legendary Keymaps" },
     { "<leader>sp", "<cmd>Legendary commands<cr>", desc = "Legendary Commands" },
