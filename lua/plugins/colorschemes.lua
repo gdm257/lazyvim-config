@@ -7,6 +7,10 @@
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
+if vim.g.vscode then
+  return {}
+end
+
 return {
   {
     "loctvl842/monokai-pro.nvim",
