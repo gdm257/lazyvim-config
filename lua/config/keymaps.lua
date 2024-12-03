@@ -4,3 +4,4 @@
 local map = LazyVim.safe_keymap_set
 
 map("i", "jj", "<ESC>", { desc = "Exit Insert Mode" })
+map("i", "jk", "<ESC>:w<CR>", { desc = "Exit Insert Mode and Save" })
