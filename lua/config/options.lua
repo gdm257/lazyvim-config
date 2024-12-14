@@ -15,3 +15,7 @@ opt.guifont = {
   "JetBrainsMono Nerd Font",
   "LXGW WenKai Screen R",
 }
+
+-- Stacked jumplist
+-- make `CTRL-o` to be intuitive
+opt.jumpoptions = "stack"
