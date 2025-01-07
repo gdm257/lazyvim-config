@@ -19,3 +19,6 @@ opt.guifont = {
 -- Stacked jumplist
 -- make `CTRL-o` to be intuitive
 opt.jumpoptions = "stack"
+
+-- Disable spell check by default
+opt.spell = false
