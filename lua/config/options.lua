@@ -3,6 +3,12 @@
 -- Add any additional options here
 local opt = vim.opt
 
+-- Cwd rc file
+-- .nvim.lua
+-- .nvimrc
+-- .exrc
+opt.exrc = true
+
 --- Neovide ---
 --
 -- see more in https://neovide.dev/configuration.html
